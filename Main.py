@@ -26,6 +26,6 @@ elif selected_menu == "Dashboard":
 st.markdown("---")
 st.write("© 2023 Kwin Stationers")
 
-    # Run the app
-    if __name__ == "__main__":
-        main()
+# Run the app
+if __name__ == "__main__":
+  main()
