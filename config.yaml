@@ -1,0 +1,37 @@
+ cookie:
+    expiry_days: 30
+    key: 'kwin312922'
+    name: 'Kwin_Stationers'
+credentials:
+  usernames:
+    kwinfred:
+      email: kyamazimawinfred@gmail.com
+      name: Kyamazima Winfred
+      password: K-win2023     
+    mjoab:
+      email: mwerangyejoab@gmail.com
+      name: Mwerangye Joab
+      password: Xpress*2023
+    kfred:
+      email: fredkawesi@gmail.com
+      name: Kawesi Fred
+      password: Admin@2023
+
+  preauthorized:
+    emails:
+    - fredkawesi@gmail.com
+
+runtime: python38
+
+runtime_config: 
+  python_version: 3
+
+entrypoint: streamlit run Main.py
+
+handlers:
+- url: /.*
+  script: auto
+
+env_variables:
+  GOOGLE_APPLICATION_CREDENTIALS: "credentials.json"
+

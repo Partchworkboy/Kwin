@@ -1,0 +1,12 @@
+db_dtypes==1.1.1
+extra_streamlit_components==0.1.56
+pandas==1.5.3
+plotly==5.14.1
+protobuf==3.20.3
+PyJWT==2.3.0
+PyJWT==2.6.0
+python_bcrypt==0.3.2
+PyYAML==5.4.1
+PyYAML==6.0
+streamlit==1.21.0
+streamlit_authenticator==0.2.1
